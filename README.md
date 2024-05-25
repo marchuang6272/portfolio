@@ -32,7 +32,7 @@
         <div>
             <!-- <h1>Benjamin C Yang</h1> -->
             <p> 
-            I am currently a 2nd year Masters student in the Mechanical Engineering Department of the University of Illinois at Urbana Champaign. I am a graduate research assistant in the Reliable Autonomy Group @ UIUC. I aspire to become a full stack robotics engineer, working with both software and hardware. <br> 
+            I am currently a Masters student in the Mechanical Engineering Department of the University of Illinois at Urbana Champaign. I am a graduate research assistant in the Reliable Autonomy Group @ UIUC. I aspire to become a full stack robotics engineer, working with both software and hardware. <br> 
             
             In my free time I love to build and ride bikes, and apply endless upgrades to my ender3 printer.
 
