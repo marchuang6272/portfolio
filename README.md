@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-To run the automated hardware to graph conversion tool, information can be found in /rvv-dsa/gnn/hardware_graph.py
-=======
-
 <head>
     <style>
         .image-container {
@@ -205,4 +201,3 @@ The current assessment for spasticity relies on the past experiences of the clin
 
 The simulator will replicate the response of spasticity patients through an adjustable hydraulic piston. When certain technique checkpoints are accomplished, the electronic feedback will inform the user on their results.
 
->>>>>>> master
