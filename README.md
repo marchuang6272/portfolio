@@ -46,9 +46,6 @@
 <p style="text-align: center; font-size: 36px"> Past Projects</p>
 
 
-<div style="text-align:center;">
-    <img src="{{ "images/orca_os.gif" | prepend: site.baseurl | prepend: site.url}}" alt="zigzag" />
-</div>
 
 
 
@@ -74,7 +71,7 @@ TACAS Submission 2024  <br />
 
 
 <div style="text-align:center;">
-    <img src="{{ "images/ME446_robotpath.gif" | prepend: site.baseurl | prepend: site.url}}" alt="zigzag" />
+    <img src="{{ "images/orca.gif" | prepend: site.baseurl | prepend: site.url}}" alt="zigzag" />
 </div>
 
 <div style="display: flex; justify-content: space-between;">
