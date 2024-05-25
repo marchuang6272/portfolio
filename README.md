@@ -48,7 +48,7 @@
 <!-- Ongoing work -->
 
 <div style="text-align:center;">
-    <img src="{{ "images/segbot.gif" | prepend: site.baseurl | prepend: site.url}}" alt="zigzag" />
+    <img src="{{ "images/orca_os.gif" | prepend: site.baseurl | prepend: site.url}}" alt="zigzag" />
 </div>
 
 <div style="display: flex; justify-content: space-between;">
