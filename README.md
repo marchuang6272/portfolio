@@ -1,0 +1,1 @@
+To run the automated hardware to graph conversion tool, information can be found in /rvv-dsa/gnn/hardware_graph.py
