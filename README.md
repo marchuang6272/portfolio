@@ -5,7 +5,7 @@
             justify-content: space-between; /*Adjust this property to control spacing */
         }
         .image-container img {
-            max-width: 80%; /* Adjust image width as needed*/
+            max-width: 45%; /* Adjust image width as needed*/
         }
     </style>
 </head>
@@ -30,30 +30,30 @@
 
         .grid {
             display: grid;
-            grid-template-columns: 3fr 2fr; /* Left takes 2/3, right takes 1/3 */
-            grid-template-rows: auto; /* Auto height rows */
+            grid-template-columns: auto; /* Left takes 2/3, right takes 1/3 */
+            grid-template-rows: 2fr 1fr; /* Auto height rows */
             gap: 10px; /* Adjust the gap as needed */
             max-width: 800px; /* Adjust the max-width as needed */
             width: 100%; /* Ensure it uses full available width */
         }
 
         .left-image {
-            width: 100%;
-            height: auto; /* Automatically adjust height */
-            object-fit: cover; /* Ensure the image covers the entire grid area */
-            grid-row: span 2; /* Spans both rows */
+            height: 100%;
+            width: auto; /* Automatically adjust height */
+            /* object-fit: cover;  */
+            grid-column: span 2; /* Spans both rows */
         }
 
         .bottom-right-image {
-            width: 100%;
-            height: auto; /* Automatically adjust height */
-            object-fit: cover; /* Ensure the image covers the entire grid area */
+            height: 100%;
+            width: auto; /* Automatically adjust height */
+            /* object-fit: cover;  */
         }
 
         .bottom-left-image {
-            width: 100%;
-            height: auto; /* Automatically adjust height */
-            object-fit: cover; /* Ensure the image covers the entire grid area */
+            height: 100%;
+            width: auto; /* Automatically adjust height */
+            /* object-fit: cover;  */
         }
     </style>
 </head>
@@ -90,8 +90,8 @@
 As a Software Engineer and Research Assistant at the Future Architecture and System Technology for Scalable Computing Laboratory, I collaborated with Google DeepMind researchers on machine learning-assisted computer architecture projects. I engineered a large-scale microarchitecture design space exploration framework using Python and PyTorch, incorporating open-source RTL synthesis tools, reinforcement learning frameworks, and architecture simulators. Additionally, I modified open-source HDL compilers in C++ to create custom SystemVerilog intermediate representations, enabling the integration of custom RISC-V vector processor architectures into machine learning frameworks.
 
 
-
 <br>
+
 
 
 <div style="text-align:center;">
@@ -111,7 +111,7 @@ I embarked on a semester-long project to design and implement the ORCA Operating
 
 <div class="grid">
         <img src="./images/robot.gif" alt="Left Image" class="left-image"/>
-        <img src="./images/diagram.png" alt="Top Right Image" class="bottom"/>
+        <img src="./images/diagram.png" alt="Top Right Image" class="bottom-left-image"/>
         <img src="./images/labeler.png" alt="Bottom Right Image" class="bottom-right-image"/>
 </div>
 
