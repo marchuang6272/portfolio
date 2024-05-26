@@ -34,26 +34,23 @@
             grid-template-rows: 2fr 1fr; /* Auto height rows */
             gap: 10px; /* Adjust the gap as needed */
             max-width: 800px; /* Adjust the max-width as needed */
-            width: 100%; /* Ensure it uses full available width */
+            height:100%;
         }
 
         .left-image {
             height: 100%;
             width: auto; /* Automatically adjust height */
-            /* object-fit: cover;  */
             grid-column: span 2; /* Spans both rows */
         }
 
         .bottom-right-image {
             height: 100%;
             width: auto; /* Automatically adjust height */
-            /* object-fit: cover;  */
         }
 
         .bottom-left-image {
             height: 100%;
             width: auto; /* Automatically adjust height */
-            /* object-fit: cover;  */
         }
     </style>
 </head>
