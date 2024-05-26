@@ -79,6 +79,7 @@
     </div>
 </body>
 
+<br>
 <div style="display: flex; justify-content: space-between;">
   <p style="text-align: center; font-size: 24px;">Research Project: ML-Driven Hardware Design Space Exploration</p>
   <p style="text-align: right;">Fall 2023</p>
@@ -95,6 +96,7 @@ As a software engineer and research assistant at the Future Architecture and Sys
     <img src="{{ "images/orca.gif" | prepend: site.baseurl | prepend: site.url}}" alt="orca" />
 </div>
 
+<br>
 
 <div style="display: flex; justify-content: space-between;">
   <p style="text-align: center; font-size: 24px;">ORCA-OS: A functional Unix-based OS kernel</p>
@@ -105,6 +107,7 @@ I embarked on a semester-long project to design and implement the ORCA Operating
 
 [GitHub Link](https://github.com/marchuang6272/ORCA-OS/tree/main)
 
+<br>
 
 <div class="grid">
         <img src="./images/robot.gif" alt="Left Image" class="left-image"/>
@@ -112,6 +115,7 @@ I embarked on a semester-long project to design and implement the ORCA Operating
         <img src="./images/labeler.png" alt="Bottom Right Image" class="bottom-right-image"/>
 </div>
 
+<br>
 <div style="display: flex; justify-content: space-between;">
   <p style="text-align: center; font-size: 24px;">Intelligent Motion Laboratory: Image Segmentation Labeler</p>
   <p style="text-align: right;">Spring 2022</p>
