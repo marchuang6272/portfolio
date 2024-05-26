@@ -64,6 +64,7 @@ As a Software Engineer and Research Assistant at the Future Architecture and Sys
     <img src="{{ "images/orca.gif" | prepend: site.baseurl | prepend: site.url}}" alt="orca" />
 </div>
 
+
 <div style="display: flex; justify-content: space-between;">
   <p style="text-align: center; font-size: 24px;">ORCA-OS: A functional Unix-based OS kernel</p>
   <p style="text-align: right;">Spring 2023</p>
@@ -71,5 +72,22 @@ As a Software Engineer and Research Assistant at the Future Architecture and Sys
 
 I embarked on a semester-long project to design and implement the ORCA Operating System, a functional Unix-based operating system kernel written in C and x86 assembly. This project involved creating a kernel capable of paged virtual memory management, interrupt handling, and process scheduling. Key features of ORCA OS include an in-memory file system, user/kernel privileges, multiple terminals, a virtualized clock, preemptive scheduling, USB/PS2 keyboard input, and full-color VGA Mode-X output. 
 [GitHub Link](https://github.com/marchuang6272/ORCA-OS/tree/main)
+
+
+<div class="image-container">
+        <img src="{{ "images/robot.gif" | prepend: site.baseurl | prepend: site.url}}" alt="Left Image" class="left-image"/>
+        <img src="{{ "images/labeler.png" | prepend: site.baseurl | prepend: site.url}}" alt="Top Right Image" class="top-right-image"/>
+        <img src="{{ "images/diagram.png" | prepend: site.baseurl | prepend: site.url}}" alt="Bottom Right Image" class="bottom-right-image"/>
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+  <p style="text-align: center; font-size: 24px;">Intelligent Motion Laboratory: Image Segmentation Labeler</p>
+  <p style="text-align: right;">Spring 2022</p>
+</div>
+
+
+As an undergraduate research assistant at the Intelligent Motion Laboratory, I contributed to the development of computer vision modules for a teleoperated robot, which achieved 4th place in the XPRIZE Global Avatar Competition. I also engineered a browser-based data labeling tool using React and Flask to facilitate computer vision research, focusing on few-shot, incremental, and continuous learning for robotic systems. Additionally, I deployed various PyTorch models using Flask to expose a REST API for model inference and implemented publisher/subscriber communication using ROS and C++ to connect single-board computers with a linear hydraulic actuator system.
+[Video Link](https://www.youtube.com/watch?v=dt3At7YwxKM)
+[Github Link](https://github.com/RogerQi/XMem)
 
 
