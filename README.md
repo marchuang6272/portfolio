@@ -44,7 +44,7 @@
 
 
 <body>
-    <div class="image-container">
+    <div class="text-align:center;">
         <img src="{{ "images/codegen.gif" | prepend: site.baseurl | prepend: site.url}}" alt="zigzag" />
     </div>
 </body>
