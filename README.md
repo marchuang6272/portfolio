@@ -25,7 +25,7 @@
          .rounded-image {
             border-radius: 20px; /* Adjust the value to change the roundness */
             flex: 1;
-            margin-right: 25px; /* Adjust the margin as needed */
+            margin-right: 35px; /* Adjust the margin as needed */
         }
 
         .grid {
@@ -60,7 +60,7 @@
 
 <body>
     <div class="container">
-        <img class="rounded-image" src="./images/headshot.png" alt="headshot" style="width: 220px;">
+        <img class="rounded-image" src="./images/headshot.png" alt="headshot" style="width: 300px;">
         <div>
             <p> 
                 Hello! My name is Marcanthony Huang. I am a recent graduate from the University of Illinois Urbana-Champaign. My professional journey and academic experiences have fueled my passion for computer hardware design and system programming. I have had the privilege of collaborating with Google DeepMind researchers on cutting-edge machine learning assisted computer architecture projects and have engineered large-scale microarchitecture design space exploration frameworks. My work spans from modifying HDL compilers for custom RISC-V vector processors to assisting in the development of a Unix-based operating system kernel in C and x86 assembly. 
