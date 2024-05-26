@@ -22,6 +22,28 @@
             flex: 1;
             margin-right: 15px; /* Adjust the margin as needed */
         }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 10px; /* Adjust the gap as needed */
+            max-width: 800px; /* Adjust the max-width as needed */
+        }
+
+        .left-image {
+            grid-row: span 2;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensure the image covers the entire grid area */
+        }
+
+        .top-right-image,
+        .bottom-right-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensure the images cover the grid area */
+        }
     </style>
 </head>
 
@@ -74,7 +96,7 @@ I embarked on a semester-long project to design and implement the ORCA Operating
 [GitHub Link](https://github.com/marchuang6272/ORCA-OS/tree/main)
 
 
-<div class="image-container">
+<div class="grid">
         <img src="{{ "images/robot.gif" | prepend: site.baseurl | prepend: site.url}}" alt="Left Image" class="left-image"/>
         <img src="{{ "images/labeler.png" | prepend: site.baseurl | prepend: site.url}}" alt="Top Right Image" class="top-right-image"/>
         <img src="{{ "images/diagram.png" | prepend: site.baseurl | prepend: site.url}}" alt="Bottom Right Image" class="bottom-right-image"/>
