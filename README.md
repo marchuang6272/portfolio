@@ -25,12 +25,13 @@
 
         .grid {
             display: grid;
-            grid-template-columns: 2fr 1fr; /* 2/3 for left image, 1/3 for right images */
-            grid-template-rows: auto; /* Auto-height rows */
+            grid-template-columns: 3fr 2fr; /* Left takes 2/3, right takes 1/3 */
+            grid-template-rows: auto; /* Auto height rows */
             gap: 10px; /* Adjust the gap as needed */
             max-width: 800px; /* Adjust the max-width as needed */
             width: 100%; /* Ensure it uses full available width */
         }
+
         .left-image {
             width: 100%;
             height: auto; /* Automatically adjust height */
@@ -38,11 +39,16 @@
             grid-row: span 2; /* Spans both rows */
         }
 
-        .top-right-image,
         .bottom-right-image {
             width: 100%;
-            height: 100%;
-            object-fit: cover; /* Ensure the image covers the grid area */
+            height: auto; /* Automatically adjust height */
+            object-fit: cover; /* Ensure the image covers the entire grid area */
+        }
+
+        .bottom-left-image {
+            width: 100%;
+            height: auto; /* Automatically adjust height */
+            object-fit: cover; /* Ensure the image covers the entire grid area */
         }
     </style>
 </head>
@@ -99,7 +105,7 @@ I embarked on a semester-long project to design and implement the ORCA Operating
 
 <div class="grid">
         <img src="./images/robot.gif" alt="Left Image" class="left-image"/>
-        <img src="./images/diagram.png" alt="Top Right Image" class="top-right-image"/>
+        <img src="./images/diagram.png" alt="Top Right Image" class="bottom"/>
         <img src="./images/labeler.png" alt="Bottom Right Image" class="bottom-right-image"/>
 </div>
 
@@ -114,3 +120,5 @@ As an undergraduate research assistant at the Intelligent Motion Laboratory, I c
 [Video Link](https://www.youtube.com/watch?v=dt3At7YwxKM)
 
 [Github Link](https://github.com/RogerQi/XMem)
+
+
