@@ -46,7 +46,6 @@
 <body>
     <div class="image-container">
         <img src="{{ "images/codegen.gif" | prepend: site.baseurl | prepend: site.url}}" alt="zigzag" />
-        <img src="{{ "images/codegen.gif" | prepend: site.baseurl | prepend: site.url}}" alt="zigzag" />
     </div>
 </body>
 
