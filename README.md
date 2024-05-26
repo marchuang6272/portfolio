@@ -60,7 +60,7 @@
         <img class="rounded-image" src="./images/headshot.png" alt="headshot" style="width: 300px;">
         <div>
             <p> 
-                Hello! My name is Marcanthony Huang. I am a recent graduate from the University of Illinois Urbana-Champaign. My professional journey and academic experiences have fueled my passion for computer hardware design and system programming. I have had the privilege of collaborating with Google on cutting-edge machine learning assisted computer architecture projects and have engineered large-scale microarchitecture design space exploration frameworks. My work spans from modifying HDL compilers for custom RISC-V vector processors to assisting in the development of a Unix-based operating system kernel in C and x86 assembly. 
+                Hello! My name is Marcanthony Huang. I am a recent graduate from the University of Illinois Urbana-Champaign. My interests and skills revolve around computer hardware design and system programming. I have had the privilege of collaborating with Google on machine learning assisted computer architecture projects and have engineered large-scale microarchitecture design space exploration frameworks. My projects spans from modifying HDL compilers for custom RISC-V vector processors to assisting in the development of a Unix-based operating system kernel in C and x86 assembly. 
             </p>
         </div>
     </div>
@@ -103,7 +103,7 @@ As a software engineer and research assistant at the Future Architecture and Sys
   <p style="text-align: right;">Spring 2023</p>
 </div>
 
-I embarked on a semester-long project to design and implement the ORCA Operating System, a functional Unix-based operating system kernel written in C and x86 assembly. This project involved creating a kernel capable of paged virtual memory management, interrupt handling, and process scheduling. Key features of ORCA OS include an in-memory file system, user/kernel privileges, multiple terminals, a virtualized clock, preemptive scheduling, USB/PS2 keyboard input, and full-color VGA Mode-X output. 
+I worked on a semester-long project to design and implement a functional Unix-based operating system kernel written in C and x86 assembly. This project involved creating a kernel capable of paged virtual memory management, interrupt handling, and process scheduling. Key features of ORCA OS include an in-memory file system, user/kernel privileges, multiple terminals, a virtualized clock, preemptive scheduling, USB/PS2 keyboard input, and full-color VGA Mode-X output. 
 
 [GitHub Link](https://github.com/marchuang6272/ORCA-OS/tree/main)
 
