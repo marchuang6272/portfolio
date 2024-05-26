@@ -22,7 +22,6 @@
             flex: 1;
             margin-right: 15px; /* Adjust the margin as needed */
         }
-
         .grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -32,17 +31,27 @@
         }
 
         .left-image {
-            grid-row: span 2;
+            grid-row: 1 / 3; /* Spans from row 1 to row 3 (2 rows) */
+            grid-column: 1 / 2; /* Stays in the first column */
             width: 100%;
             height: 100%;
             object-fit: cover; /* Ensure the image covers the entire grid area */
         }
 
-        .top-right-image,
-        .bottom-right-image {
+        .top-right-image {
+            grid-row: 1 / 2; /* Occupies the first row */
+            grid-column: 2 / 3; /* Occupies the second column */
             width: 100%;
             height: 100%;
-            object-fit: cover; /* Ensure the images cover the grid area */
+            object-fit: cover; /* Ensure the image covers the grid area */
+        }
+
+        .bottom-right-image {
+            grid-row: 2 / 3; /* Occupies the second row */
+            grid-column: 2 / 3; /* Occupies the second column */
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensure the image covers the grid area */
         }
     </style>
 </head>
