@@ -99,7 +99,7 @@ As a software engineer and research assistant at the Future Architecture and Sys
 <br>
 
 <div style="display: flex; justify-content: space-between;">
-  <p style="text-align: center; font-size: 24px;">ORCA-OS: A functional Unix-based OS kernel</p>
+  <p style="text-align: center; font-size: 24px;">ORCA-OS: A Functional Unix-based OS Kernel</p>
   <p style="text-align: right;">Spring 2023</p>
 </div>
 
