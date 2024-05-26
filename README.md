@@ -5,7 +5,7 @@
             justify-content: space-between; /*Adjust this property to control spacing */
         }
         .image-container img {
-            max-width: 45%; /* Adjust image width as needed*/
+            max-width: 80%; /* Adjust image width as needed*/
         }
     </style>
 </head>
