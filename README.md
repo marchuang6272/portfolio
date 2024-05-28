@@ -18,6 +18,16 @@
             align-items: center;
         }
 
+        .justified {
+        text-align: justify;
+        }
+        
+        /* Indent text */
+        .indented {
+        text-indent: 20px; /* You can adjust the value as needed */
+        }
+
+
         .image {
             flex: 1;
             margin-right: 15px; /* Adjust the margin as needed */
@@ -59,8 +69,8 @@
     <div class="container">
         <img class="rounded-image" src="./images/headshot.png" alt="headshot" style="width: 300px;">
         <div>
-            <p> 
-                Hello! My name is Marcanthony Huang. I am a recent graduate from University of Illinois Urbana-Champaign’s Grainger School of Engineering. Within software engineering, my skills and interests revolve around computer hardware, systems programming, and machine learning. Outside of industry, I am passionate about computer engineering research, specifically in computer architecture and robotics. Currently, I work as a software engineer and researcher at the Future Architecture and System Technology for Scalable Computing Laboratory. 
+            <p class="justified indented"> 
+                Hello! My name is Marcanthony Huang. I am a recent graduate from University of Illinois Urbana-Champaign’s Grainger College of Engineering. Within software engineering, my skills and interests revolve around computer hardware, systems programming, and machine learning. Outside of industry, I am passionate about computer engineering research, specifically in computer architecture and robotics. Currently, I work as a software engineer and researcher at the Future Architecture and System Technology for Scalable Computing Laboratory. 
             </p>
         </div>
     </div>
@@ -81,12 +91,13 @@
 
 <br>
 <div style="display: flex; justify-content: space-between;">
-  <p style="text-align: center; font-size: 24px;">Machine Learning for Design Space Exploration</p>
+  <p style="text-align: center; font-size: 24px;">Machine Learning for Computer Architecture Design Space Exploration</p>
   <p style="text-align: right;">Fall 2023</p>
 </div>
 
-As a software engineer and research assistant at the Future Architecture and System Technology for Scalable Computing Laboratory, I collaborated with Google DeepMind researchers on machine learning-assisted computer architecture projects. I engineered a large-scale microarchitecture design space exploration framework using Python and PyTorch, incorporating open-source RTL synthesis tools, reinforcement learning frameworks, and architecture simulators. Additionally, I modified open-source HDL compilers in C++ to create custom SystemVerilog intermediate representations, enabling the integration of custom RISC-V vector processor architectures into machine learning frameworks.
-
+<p class="justified indented"> 
+    As a software engineer and research assistant at the Future Architecture and System Technology for Scalable Computing Laboratory, I collaborate with Google DeepMind researchers on machine learning-assisted computer architecture projects. We developed an open-source framework for generating processor microarchitectures at the RTL level, featuring a graph-based model with nodes for hardware modules and edges for interfaces. This model enables rapid evaluation of design points using graph neural networks (GNNs) or HDL generation for synthesis and simulation, exploring both hardware parameters and graph structures. I contributed by developing a design space exploration framework using Python and PyTorch and modifying HDL compilers in C++ to integrate custom RISC-V vector processor architectures, enhancing computer architectures for efficient performance estimations and HDL generation.
+</p>
 
 <br>
 
@@ -102,9 +113,9 @@ As a software engineer and research assistant at the Future Architecture and Sys
   <p style="text-align: center; font-size: 24px;">ORCA-OS: A Functional Unix-based OS Kernel</p>
   <p style="text-align: right;">Spring 2023</p>
 </div>
-
-I worked on a semester-long project to design and implement a functional Unix-based operating system kernel written in C and x86 assembly. This project involved creating a kernel capable of paged virtual memory management, interrupt handling, and process scheduling. Key features of ORCA OS include an in-memory file system, user/kernel privileges, multiple terminals, a virtualized clock, preemptive scheduling, USB/PS2 keyboard input, and full-color VGA Mode-X output. 
-
+<p class="justified indented"> 
+    I worked on a semester-long project to design and implement a functional Unix-based operating system kernel written in C and x86 assembly. Features of the kernel include paged virtual memory management, interrupt handling, and process scheduling. In addition, ORCA-OS includes an in-memory file system, user/kernel privileges, multiple terminals, a virtualized clock, preemptive scheduling, USB/PS2 keyboard input, and full-color VGA Mode-X output. 
+</p>
 [GitHub Link](https://github.com/marchuang6272/ORCA-OS/tree/main)
 
 <br>
@@ -121,9 +132,9 @@ I worked on a semester-long project to design and implement a functional Unix-ba
   <p style="text-align: right;">Spring 2022</p>
 </div>
 
-
-As an undergraduate research assistant at the Intelligent Motion Laboratory, I contributed to the development of computer vision modules for a teleoperated robot, which achieved 4th place in the XPRIZE Global Avatar Competition. I also engineered a browser-based data labeling tool using React and Flask to facilitate computer vision research, focusing on few-shot, incremental, and continuous learning for robotic systems. Additionally, I deployed various PyTorch models using Flask to expose a REST API for model inference and implemented publisher/subscriber communication using ROS and C++ to connect single-board computers with a linear hydraulic actuator system.
-
+<p class="justified indented"> 
+    I initially came to university with an interest in robotics, and it was working in a robotics lab that sparked my interests in system software and computer architecture. As an undergraduate research assistant at the Intelligent Motion Laboratory, I contributed to enhancing the computer vision system by creating a real-time image segmentation labeler that connected to the robot's camera feed and backend computer vision models. This tool allowed a robot operator to improve image segmentation models in real time during a robot's operation. 
+</p>
 [Video Link](https://www.youtube.com/watch?v=dt3At7YwxKM)
 
 [Github Link](https://github.com/RogerQi/XMem)
@@ -138,8 +149,9 @@ As an undergraduate research assistant at the Intelligent Motion Laboratory, I c
 <div style="display: flex; justify-content: space-between;">
   <p style="text-align: center; font-size: 24px;">Class Project: Homomorphic Encryption Hardware Accelerator</p>
 </div>
-I developed a hardware accelerator in SystemVerilog to enhance the performance of the BFV homomorphic encryption scheme, focusing on accelerating most computationally intensive part: polynomial multiplication. By parallelizing this process, my accelerator significantly speeds up computations. Key primitives for encryption and decryption are stored in hardware registers to support efficient operations. Homomorphic encryption is significant because it allows secure computations on encrypted data without the need to decrypt it, protecting data privacy in untrusted environments.
-
+<p class="justified indented"> 
+    My group developed a hardware accelerator in SystemVerilog to enhance the performance of the BFV homomorphic encryption scheme, focusing on accelerating the computation bottleneck: polynomial multiplication. By parallelizing this process, our accelerator significantly speeds up computations. Key primitives for encryption and decryption are stored in hardware registers to support efficient operations. Homomorphic encryption is significant because it allows secure computations on encrypted data without the need to decrypt it, protecting data privacy in untrusted environments.
+</p>
 [Github Link](https://github.com/marchuang6272/HE_project/tree/main)
 
 <br>
