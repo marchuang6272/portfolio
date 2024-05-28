@@ -131,6 +131,19 @@ As an undergraduate research assistant at the Intelligent Motion Laboratory, I c
 <br>
 
 <div style="text-align:center;">
+    <img src="{{ "images/he_project.gif" | prepend: site.baseurl | prepend: site.url}}" alt="orca" width="900"/>
+</div>
+
+<br>
+<div style="display: flex; justify-content: space-between;">
+  <p style="text-align: center; font-size: 24px;">Class Project: Homomorphic Encryption Hardware Accelerator</p>
+</div>
+
+[Github Link](https://github.com/marchuang6272/HE_project/tree/main)
+
+<br>
+
+<div style="text-align:center;">
     <img src="{{ "images/presentation.gif" | prepend: site.baseurl | prepend: site.url}}" alt="orca" width="900"/>
 </div>
 
