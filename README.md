@@ -138,7 +138,6 @@ As an undergraduate research assistant at the Intelligent Motion Laboratory, I c
 <div style="display: flex; justify-content: space-between;">
   <p style="text-align: center; font-size: 24px;">Class Project: Homomorphic Encryption Hardware Accelerator</p>
 </div>
-
 [Github Link](https://github.com/marchuang6272/HE_project/tree/main)
 
 <br>
@@ -149,9 +148,8 @@ As an undergraduate research assistant at the Intelligent Motion Laboratory, I c
 
 <br>
 <div style="display: flex; justify-content: space-between;">
-  <p style="text-align: center; font-size: 24px;">SIGARCH presentation on High Performance Computing</p>
+  <p style="text-align: center; font-size: 24px;">SIGARCH Presentation: High Performance Computing</p>
 </div>
-
 [Video Link](https://youtu.be/4Nr2-94_ksU)
 
 
