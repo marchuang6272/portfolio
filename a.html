@@ -131,7 +131,7 @@ As an undergraduate research assistant at the Intelligent Motion Laboratory, I c
 <br>
 
 <div style="text-align:center;">
-    <img src="{{ "images/presentation.gif" | prepend: site.baseurl | prepend: site.url}}" alt="orca" width="800"/>
+    <img src="{{ "images/presentation.gif" | prepend: site.baseurl | prepend: site.url}}" alt="orca" width="900"/>
 </div>
 
 <br>
