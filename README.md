@@ -60,7 +60,7 @@
         <img class="rounded-image" src="./images/headshot.png" alt="headshot" style="width: 300px;">
         <div>
             <p> 
-                Hello! My name is Marcanthony Huang. I am a recent graduate from the University of Illinois Urbana-Champaign. My interests and skills revolve around computer hardware design and system programming. I have had the privilege of collaborating with Google on machine learning assisted computer architecture projects and have engineered large-scale microarchitecture design space exploration frameworks. My projects spans from modifying HDL compilers for custom RISC-V vector processors to assisting in the development of a Unix-based operating system kernel in C and x86 assembly. 
+                Hello! My name is Marcanthony Huang. I am a recent graduate from University of Illinois Urbana-Champaign’s Grainger School of Engineering. Within software engineering, my skills and interests revolve around computer hardware, systems programming, and machine learning. Outside of industry, I am passionate about computer engineering research, specifically in computer architecture and robotics. Currently, I work as a software engineer and researcher at the Future Architecture and System Technology for Scalable Computing Laboratory. 
             </p>
         </div>
     </div>
@@ -127,5 +127,21 @@ As an undergraduate research assistant at the Intelligent Motion Laboratory, I c
 [Video Link](https://www.youtube.com/watch?v=dt3At7YwxKM)
 
 [Github Link](https://github.com/RogerQi/XMem)
+
+<br>
+
+<div style="text-align:center;">
+    <img src="{{ "images/presentation.gif" | prepend: site.baseurl | prepend: site.url}}" alt="orca" />
+</div>
+
+<br>
+<div style="display: flex; justify-content: space-between;">
+  <p style="text-align: center; font-size: 24px;">Outside of classes...</p>
+</div>
+
+[ACM SIGARCH Presentation](https://youtu.be/4Nr2-94_ksU)
+
+
+
 
 
