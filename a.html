@@ -131,15 +131,15 @@ As an undergraduate research assistant at the Intelligent Motion Laboratory, I c
 <br>
 
 <div style="text-align:center;">
-    <img src="{{ "images/presentation.gif" | prepend: site.baseurl | prepend: site.url}}" alt="orca" />
+    <img src="{{ "images/presentation.gif" | prepend: site.baseurl | prepend: site.url}}" alt="orca" width="800"/>
 </div>
 
 <br>
 <div style="display: flex; justify-content: space-between;">
-  <p style="text-align: center; font-size: 24px;">Outside of classes...</p>
+  <p style="text-align: center; font-size: 24px;">SIGARCH presentation on High Performance Computing</p>
 </div>
 
-[ACM SIGARCH Presentation](https://youtu.be/4Nr2-94_ksU)
+[Video Link](https://youtu.be/4Nr2-94_ksU)
 
 
 
