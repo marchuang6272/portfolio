@@ -91,7 +91,7 @@
 
 <br>
 <div style="display: flex; justify-content: space-between;">
-  <p style="text-align: center; font-size: 24px;">Machine Learning for Computer Architecture</p>
+  <p style="text-align: center; font-size: 24px;">Current Work: Machine Learning for Computer Architecture</p>
   <p style="text-align: right;">Fall 2023</p>
 </div>
 
